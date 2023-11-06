@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   message_generation
   genmsg
+  joy
 )
 
 ## System dependencies are found with CMake's conventions
@@ -171,8 +172,10 @@ catkin_install_python(PROGRAMS
    scripts/add_two_ints_server.py
    scripts/add_two_ints_client.py
    scripts/encoder_reader.py
+   scripts/rc_controller.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
 
 ## Mark executables for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html
