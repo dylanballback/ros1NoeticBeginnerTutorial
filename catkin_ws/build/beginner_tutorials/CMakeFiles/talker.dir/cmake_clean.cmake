@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/dylan/catkin_ws/devel/lib/beginner_tutorials/talker"
-  "/home/dylan/catkin_ws/devel/lib/beginner_tutorials/talker.pdb"
+  "/home/dylan/Documents/ros1NoeticBeginnerTutorial/catkin_ws/devel/lib/beginner_tutorials/talker"
+  "/home/dylan/Documents/ros1NoeticBeginnerTutorial/catkin_ws/devel/lib/beginner_tutorials/talker.pdb"
   "CMakeFiles/talker.dir/src/talker.cpp.o"
 )
 

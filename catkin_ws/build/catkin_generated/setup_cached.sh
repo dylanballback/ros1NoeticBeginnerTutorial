@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/dylan/catkin_ws/build'
+export PWD='/home/dylan/Documents/ros1NoeticBeginnerTutorial/catkin_ws/build'

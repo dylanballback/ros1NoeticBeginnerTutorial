@@ -1,4 +1,4 @@
-prefix=/home/dylan/catkin_ws/install
+prefix=/home/dylan/Documents/ros1NoeticBeginnerTutorial/catkin_ws/install
 
 Name: beginner_tutorials
 Description: Description of beginner_tutorials

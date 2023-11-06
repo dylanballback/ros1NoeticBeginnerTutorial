@@ -170,6 +170,7 @@ catkin_install_python(PROGRAMS
    scripts/listener.py
    scripts/add_two_ints_server.py
    scripts/add_two_ints_client.py
+   scripts/encoder_reader.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
