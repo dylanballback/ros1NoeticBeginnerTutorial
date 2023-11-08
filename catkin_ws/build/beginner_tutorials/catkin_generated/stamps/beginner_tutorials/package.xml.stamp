@@ -56,12 +56,15 @@
   <build_depend>std_msgs</build_depend>
   <build_depend>pyserial</build_depend>
   <build_depend>joy</build_depend>
+  <build_depend>turtlebot3_msgs</build_depend>
 
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>rospy</build_export_depend>
   <build_export_depend>std_msgs</build_export_depend>
   <build_export_depend>pyserial</build_export_depend>
   <build_export_depend>joy</build_export_depend>
+  <build_export_depend>turtlebot3_msgs</build_export_depend>
+  
 
 
   <exec_depend>roscpp</exec_depend>
@@ -71,6 +74,7 @@
   <exec_depend>pyserial</exec_depend>
   <!-- joy is required to read usb controller data -->
   <exec_depend>joy</exec_depend>
+  <exec_depend>turtlebot3_msgs</exec_depend>
   
 
 
