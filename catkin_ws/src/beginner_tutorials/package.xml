@@ -75,7 +75,24 @@
   <!-- joy is required to read usb controller data -->
   <exec_depend>joy</exec_depend>
   <exec_depend>turtlebot3_msgs</exec_depend>
-  
+
+  <!-- This is reaquired for imu raw reading sensor_msgs -->
+  <build_depend>sensor_msgs</build_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+<!-- This is reaquired for imu raw reading sensor_msgs -->
+  <build_depend>geometry_msgs</build_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+
+<!-- This is reaquired for imu raw reading math -->
+  <build_depend>tf</build_depend>
+  <build_export_depend>tf</build_export_depend>
+  <exec_depend>tf</exec_depend>
+
+
+
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
