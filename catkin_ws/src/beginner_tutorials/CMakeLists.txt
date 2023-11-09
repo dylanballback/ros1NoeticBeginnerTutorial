@@ -19,6 +19,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   sensor_msgs
   tf
+  tf2_ros
 )
 
 ## System dependencies are found with CMake's conventions
@@ -111,7 +112,7 @@ generate_messages(
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES beginner_tutorials
-  CATKIN_DEPENDS roscpp rospy std_msgs turtlebot3_msgs geometry_msgs sensor_msgs tf
+  CATKIN_DEPENDS roscpp rospy std_msgs turtlebot3_msgs geometry_msgs sensor_msgs tf tf2_ros
   DEPENDS system_lib
 )
 
@@ -177,8 +178,9 @@ catkin_install_python(PROGRAMS
    scripts/add_two_ints_client.py
    scripts/encoder_reader.py
    scripts/rc_controller.py
-   scripts/imu_reader.py
+   scripts/imu_talker.py
    scripts/imu_raw_reader.py
+   scripts/my_tf2_broadcaster.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

@@ -91,6 +91,11 @@
   <build_export_depend>tf</build_export_depend>
   <exec_depend>tf</exec_depend>
 
+<!-- This is reaquired for imu raw reading math -->
+  <build_depend>tf2_ros</build_depend>
+  <build_export_depend>tf2_ros</build_export_depend>
+  <exec_depend>tf2_ros</exec_depend>
+
 
 
 
